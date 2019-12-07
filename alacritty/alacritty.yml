@@ -1,0 +1,59 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x002635'
+    foreground: '0xe6e6dc'
+
+  # Normal colors
+  normal:
+    black:   '0x00384d'
+    red:     '0xc43061'
+    green:   '0x7fc06e'
+    yellow:  '0xf08e48'
+    blue:    '0x1c8db2'
+    magenta: '0xc694ff'
+    cyan:    '0x00cccc'
+    white:   '0x77929e'
+
+  # Bright colors
+  bright:
+    black:   '0x517f8d'
+    red:     '0xff5a67'
+    green:   '0x9cf087'
+    yellow:  '0xffcc1b'
+    blue:    '0x7eb2dd'
+    magenta: '0xfb94ff'
+    cyan:    '0x00ffff'
+    white:   '0xb7cff9'
+
+  cursor:
+    text: "0x002635"
+    cursor: "0xffcc1b"
+
+background_opacity: 0.6
+
+# font:
+#     normal:
+#         family: SauceCodePro Nerd Font
+#         style: Regular
+#     bold:
+#         family: SauceCodePro Nerd Font
+#         style: Bold
+#     italic:
+#         # FIXME: https://github.com/ryanoasis/nerd-fonts/issues/236
+#         family: SourceCode Pro
+#         style: Italic
+
+
+window:
+    # Blank space added around the window in pixels
+    padding:
+        x: 0
+        y: 0
+
+    # Spread additional padding evenly around the terminal content
+    dynamic_padding: true
+
+    # Disable border and title bar
+    decorations: none
+
