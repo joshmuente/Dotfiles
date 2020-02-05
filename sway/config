@@ -17,10 +17,10 @@ set $background ~/.images/abstract2.jpg
 ### Idle configuration
 
 exec swayidle -w \
-			timeout 300 'swaylock -f -c 000000' \
-			timeout 600 'swaymsg "output * dpms off"' \
-			resume 'swaymsg "output * dpms on"' \
-			before-sleep 'swaylock -f -c 000000'
+            timeout 300 'swaylock -f -c 000000' \
+            timeout 600 'swaymsg "output * dpms off"' \
+            resume 'swaymsg "output * dpms on"' \
+            before-sleep 'swaylock -f -c 000000'
 
 
 
@@ -212,7 +212,7 @@ input "1:1:AT_Translated_Set_2_keyboard" {
 }
 
 input "1130:35:HID_046a:0023" {
-	xkb_layout "de"
+    xkb_layout "de"
 }
 #
 #display hdpi scaling
@@ -221,6 +221,9 @@ output eDP-1 scale 2
 
 #waybar
 exec_always ~/.config/waybar/waybar.sh
+
+#effects
+exec_always ~/.config/sway/fader.py
 
 exec "systemctl --user import-environment; systemctl --user start sway-session.target"
 
