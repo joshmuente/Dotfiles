@@ -1,4 +1,3 @@
-image=~/.images/abstract.jpg
 ignore-empty-password
 font=Sans
 indicator-radius=120
@@ -34,3 +33,8 @@ bs-hl-color=ee2e24FF
 caps-lock-key-hl-color=ffd204FF
 caps-lock-bs-hl-color=ee2e24FF
 separator-color=231f2000
+
+screenshots
+clock
+indicator
+effect-blur=7x5
